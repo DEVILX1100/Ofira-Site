@@ -39,7 +39,7 @@ function Footer() {
     <div className={classes.root}>
       <div className={classes.content}>
         <Typography variant="h6" className={classes.title}>
-          Grove - Todos os direitos reservados.
+          Ofira - All rights reserved.
         </Typography>
         <Link
           href="/add"
