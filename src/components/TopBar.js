@@ -53,10 +53,10 @@ function TopBar() {
       <CssBaseline />
       <AppBar position="static" className={classes.topBar}>
         <Toolbar>
-          <img src={BotImage} className={classes.image} alt="Denky Bot" />
+          <img src={BotImage} className={classes.image} alt="Ofira Bot" />
           <Typography variant="h6" className={classes.title}>
             <Link href="/" className={classes.link}>
-              Grove
+              Ofira
             </Link>
           </Typography>
           <Button
@@ -65,7 +65,7 @@ function TopBar() {
             href="/commands"
             color="inherit"
           >
-            Comandos
+            Commands
           </Button>
         </Toolbar>
       </AppBar>
