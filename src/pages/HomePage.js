@@ -89,9 +89,9 @@ function HomePage() {
           severity="info"
           className={classes.alert}
         >
-          Slash Commands disponíveis!!🎉🎉 —{" "}
+          Premium released!!🎉🎉 —{" "}
           <Link className={classes.link} href="/commands">
-            veja agora!
+            see now!
           </Link>
         </Alert>
       </Collapse>
@@ -100,11 +100,11 @@ function HomePage() {
           <Grid container>
             <Grid item sm={12} lg={6} style={{ textAlign: "left" }}>
               <Typography variant="h2" className={classes.title}>
-                Grove
+                Ofira
               </Typography>
               <Typography variant="h5" style={{ paddingTop: "10px" }}>
-                Escute música em seu servidor a qualquer hora, de forma 100%
-                gratuita, e com suporte a diversas plataformas de Streaming!
+                Listen to music on your server anytime, 100%
+                free, and with support for several streaming platforms!
               </Typography>
               <Button
                 variant="contained"
@@ -112,7 +112,7 @@ function HomePage() {
                 href="/add"
                 color="inherit"
               >
-                Adicionar
+                Add
               </Button>
               <Button
                 variant="contained"
@@ -120,7 +120,7 @@ function HomePage() {
                 href="/support"
                 color="inherit"
               >
-                Suporte
+                Support
               </Button>
             </Grid>
             <Grid item sm={12} lg={6} style={{ textAlign: "right" }}>
