@@ -8,7 +8,7 @@ import CommandsPage from "./pages/CommandsPage";
 
 function redirectToAdd() {
   window.open(
-    "https://discord.com/oauth2/authorize?client_id=712785958231080990&permissions=0&scope=bot%20applications.commands",
+    "https://discord.com/oauth2/authorize?client_id=818570692847992902&permissions=8&scope=bot%20applications.commands",
     "_self"
   );
 }
@@ -18,19 +18,19 @@ function redirectToSupport() {
 }
 
 function redirectToTop() {
-  window.open("https://top.gg/bot/712785958231080990", "_self");
+  window.open("https://top.gg/bot/818570692847992902", "_self");
 }
 
 function redirectToBfd() {
-  window.open("https://botsfordiscord.com/bot/712785958231080990", "_self");
+  window.open("https://botsfordiscord.com/bot/818570692847992902", "_self");
 }
 
 function redirectToDbl() {
-  window.open("https://discordbotlist.com/bots/grove-150", "_self");
+  window.open("https://discordbotlist.com/bots/818570692847992902", "_self");
 }
 
 function redirectToGit() {
-  window.open("https://github.com/RichardPompeo/GroveSlash", "_self");
+  window.open("https://github.com/Ofira-Bot", "_self");
 }
 
 function Routes() {
