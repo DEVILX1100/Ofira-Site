@@ -18,88 +18,88 @@ function MusicList() {
     <>
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Join"
+          primary="join"
           secondary="Use to join voice channel."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Loop"
+          primary="loop"
           secondary="Use to activate the queue/song loop."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Lyrics"
+          primary="lyrics"
           secondary="Search for the lyrics of a song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Move"
+          primary="move"
           secondary="Use to move a song to another song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Now-Playing"
+          primary="nowplaying"
           secondary="Use to view the music you are playing."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Pause"
+          primary="pause"
           secondary="Use to pause/resume song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
-        <ListItemText primary="Play" secondary="Use to play a song." />
+        <ListItemText primary="play" secondary="Use to play a song." />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Queue"
+          primary="queue"
           secondary="Use to view the server queue."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Remove"
+          primary="remove"
           secondary="Use to remove a song from the queue."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Search"
+          primary="search"
           secondary="Use to search for a song/artist."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Shuffle"
+          primary="shuffle"
           secondary="Use to shuffle the tail."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Skip"
+          primary="skip"
           secondary="Use to skip current song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Stop"
+          primary="stop"
           secondary="Use to stop playing song."
         />
       </ListItem>
@@ -110,7 +110,7 @@ function MusicList() {
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="Clear-Queue"
+          primary="clear"
           secondary="Use to clear the queue."
         />
       </ListItem>
