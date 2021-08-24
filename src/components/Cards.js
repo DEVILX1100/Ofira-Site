@@ -49,8 +49,8 @@ function Cards() {
               Streaming
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              O Bot possui uma ótima qualidade de Streaming, sem lag, sem
-              ruídos, e com uma tempo de resposta curto.
+              The Bot has a great streaming quality, no lag, no
+              noises, and with a short response time.
             </Typography>
           </Paper>
         </Grid>
@@ -60,11 +60,11 @@ function Cards() {
               <DesktopWindowsIcon />
             </Icon>
             <Typography variant="h5" className={classes.title}>
-              Multiplataforma
+              Multi platform
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              Você pode colocar suas músicas, playlists e lives da plataforma
-              que mais gostar!
+              You can put your songs, playlists and lives from the platform
+              what else to like!
             </Typography>
           </Paper>
         </Grid>
@@ -74,11 +74,11 @@ function Cards() {
               <VolumeUpIcon />
             </Icon>
             <Typography variant="h5" className={classes.title}>
-              Controlador de Volume
+              Volume Controller
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              Você pode controlar o volume da música, para deixar apenas um som
-              ambiente, ou ouvir com o volume no máximo!
+              You can control the music volume, to leave only one sound
+              environment, or listen at full volume!
             </Typography>
           </Paper>
         </Grid>
@@ -88,11 +88,11 @@ function Cards() {
               <SpeakerIcon />
             </Icon>
             <Typography variant="h5" className={classes.title}>
-              Efeitos
+              Filters
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              Além de ouvir música, você pode colocar efeitos para deixar a
-              música mais divertida ou aumentar o grave!
+              In addition to listening to music, you can add filters to let the
+              more fun music or boost the bass!
             </Typography>
           </Paper>
         </Grid>
@@ -105,8 +105,8 @@ function Cards() {
               Queue
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              Você pode controlar a lista de músicas, como por exemplo: mover,
-              remover e embaralhar, e sem limite de músicas!
+              You can control the music list, for example: move,
+              remove and shuffle, and no limit on songs!
             </Typography>
           </Paper>
         </Grid>
@@ -116,11 +116,11 @@ function Cards() {
               <CreditCardIcon />
             </Icon>
             <Typography variant="h5" className={classes.title}>
-              Gratuito
+              Free
             </Typography>
             <Typography variant="h6" className={classes.subTitle}>
-              Todos esses recursos e outros, são totalmente gratuitos, o que
-              está esperando? Adicione o Bot agora mesmo!
+              All these features and others are completely free, which
+              Is waiting? Add the Bot right now!
             </Typography>
           </Paper>
         </Grid>
