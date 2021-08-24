@@ -18,19 +18,25 @@ function MiscList() {
     <>
       <ListItem className={classes.command}>
         <ListItemText
-          primary="about"
-          secondary="Use para ver informações do bot."
+          primary="help"
+          secondary="Shows all the commands available."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
-        <ListItemText primary="help" secondary="Obtenha ajuda sobre o bot." />
+        <ListItemText primary="stats" secondary="Shows statistics of the bot." />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="shard-info"
-          secondary="Use para ver informações das shards."
+          primary="nodeinfo"
+          secondary="Gives you information about all the nodes."
+        />
+      </ListItem>
+      <ListItem className={classes.command}>
+        <ListItemText
+          primary="latency"
+          secondary="Gives you information about bot current latency."
         />
       </ListItem>
     </>
