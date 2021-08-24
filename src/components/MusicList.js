@@ -18,100 +18,100 @@ function MusicList() {
     <>
       <ListItem className={classes.command}>
         <ListItemText
-          primary="join"
-          secondary="Use para entrar no canal de voz."
+          primary="Join"
+          secondary="Use to join voice channel."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="loop"
-          secondary="Use para ativar o loop da queue/música."
+          primary="Loop"
+          secondary="Use to activate the queue/song loop."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="lyrics"
-          secondary="Procure pela letra de uma música."
+          primary="Lyrics"
+          secondary="Search for the lyrics of a song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="move"
-          secondary="Use para mover uma música para outra posição."
+          primary="Move"
+          secondary="Use to move a song to another song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="now-playing"
-          secondary="Use para ver a música que está tocando."
+          primary="Now-Playing"
+          secondary="Use to view the music you are playing."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="pause"
-          secondary="Use para pausar/resumir a música."
+          primary="Pause"
+          secondary="Use to pause/resume song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
-        <ListItemText primary="play" secondary="Use para tocar uma música." />
+        <ListItemText primary="Play" secondary="Use to play a song." />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="queue"
-          secondary="Use para ver a queue do servidor."
-        />
-      </ListItem>
-      <Divider />
-      <ListItem className={classes.command}>
-        <ListItemText
-          primary="remove"
-          secondary="Use para remover uma música da queue."
+          primary="Queue"
+          secondary="Use to view the server queue."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="search"
-          secondary="Use para pesquisar uma música/artista."
+          primary="Remove"
+          secondary="Use to remove a song from the queue."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="shuffle"
-          secondary="Use para embaralhar a queue."
+          primary="Search"
+          secondary="Use to search for a song/artist."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="skip"
-          secondary="Use para pular a música atual."
+          primary="Shuffle"
+          secondary="Use to shuffle the tail."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="stop"
-          secondary="Use para parar de tocar música."
+          primary="Skip"
+          secondary="Use to skip current song."
         />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
-        <ListItemText primary="volume" secondary="Use para alterar o volume." />
+        <ListItemText
+          primary="Stop"
+          secondary="Use to stop playing song."
+        />
+      </ListItem>
+      <Divider />
+      <ListItem className={classes.command}>
+        <ListItemText primary="Volume" secondary="Use to change volume." />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
         <ListItemText
-          primary="clear-queue"
-          secondary="Use para limpar a queue."
+          primary="Clear-Queue"
+          secondary="Use to clear the queue."
         />
       </ListItem>
     </>
