@@ -8,7 +8,7 @@ import CommandsPage from "./pages/CommandsPage";
 
 function redirectToAdd() {
   window.open(
-    "https://discord.com/oauth2/authorize?client_id=818570692847992902&permissions=8&scope=bot%20applications.commands",
+    "https://discord.com/oauth2/authorize?client_id=818570692847992902&permissions=8&scope=bot",
     "_self"
   );
 }
