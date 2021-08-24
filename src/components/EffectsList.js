@@ -18,8 +18,32 @@ function EffectsList() {
     <>
       <ListItem className={classes.command}>
         <ListItemText
-          primary="config"
-          secondary="Veja a configuração do servidor."
+          primary="8D"
+          secondary="Adds 8D effects to track(s)"
+        />
+      </ListItem>
+      <ListItem className={classes.command}>
+        <ListItemText
+          primary="bassboost"
+          secondary="Adds bassboost effects to track(s)"
+        />
+      </ListItem>
+      <ListItem className={classes.command}>
+        <ListItemText
+          primary="daycore"
+          secondary="Adds daycore effects to track(s)"
+        />
+      </ListItem>
+      <ListItem className={classes.command}>
+        <ListItemText
+          primary="nightcore"
+          secondary="Adds nightcore effects to track(s)"
+        />
+      </ListItem>
+      <ListItem className={classes.command}>
+        <ListItemText
+          primary="vaporware"
+          secondary="Adds vaporware effects to track(s)"
         />
       </ListItem>
     </>
