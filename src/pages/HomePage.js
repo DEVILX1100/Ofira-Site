@@ -71,30 +71,6 @@ function HomePage() {
 
   return (
     <>
-      <Collapse in={open}>
-        <Alert
-          action={
-            <IconButton
-              aria-label="close"
-              color="inherit"
-              size="small"
-              onClick={() => {
-                setOpen(false);
-              }}
-            >
-              <CloseIcon fontSize="inherit" />
-            </IconButton>
-          }
-          variant="filled"
-          severity="info"
-          className={classes.alert}
-        >
-          Premium released!!🎉🎉 —{" "}
-          <Link className={classes.link} href="/commands">
-            see now!
-          </Link>
-        </Alert>
-      </Collapse>
       <div className={classes.root}>
         <div className={classes.content}>
           <Grid container>
@@ -103,8 +79,7 @@ function HomePage() {
                 Ofira
               </Typography>
               <Typography variant="h5" style={{ paddingTop: "10px" }}>
-                Listen to music on your server anytime, 100%
-                free, and with support for several streaming platforms!
+                Hey, This is Ofira! A discord music bot which aims to proivde rich quality music to everyone.
               </Typography>
               <Button
                 variant="contained"
