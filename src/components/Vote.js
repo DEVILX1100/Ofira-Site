@@ -42,7 +42,7 @@ function Vote() {
               top.gg
             </Typography>
             <Button className={classes.button} variant="contained" href="/top">
-              Votar
+              Vote
             </Button>
           </Paper>
         </Grid>
@@ -52,7 +52,7 @@ function Vote() {
               Bots For Discord
             </Typography>
             <Button className={classes.button} variant="contained" href="/bfd">
-              Votar
+              Vote
             </Button>
           </Paper>
         </Grid>
@@ -62,7 +62,7 @@ function Vote() {
               Discord Bot List
             </Typography>
             <Button className={classes.button} variant="contained" href="/dbl">
-              Votar
+              Vote
             </Button>
           </Paper>
         </Grid>
