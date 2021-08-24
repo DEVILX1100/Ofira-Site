@@ -64,7 +64,7 @@ function CommandsPage() {
                     <ListItemIcon>
                       <MusicNoteIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Música" />
+                    <ListItemText primary="Music" />
                   </ListItem>
                 </Button>
                 <Divider />
@@ -76,7 +76,7 @@ function CommandsPage() {
                     <ListItemIcon>
                       <SpeakerIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Efeitos" />
+                    <ListItemText primary="Filters" />
                   </ListItem>
                 </Button>
                 <Divider />
@@ -88,7 +88,7 @@ function CommandsPage() {
                     <ListItemIcon>
                       <ViewAgendaIcon />
                     </ListItemIcon>
-                    <ListItemText primary="Miscellaneous" />
+                    <ListItemText primary="Utility" />
                   </ListItem>
                 </Button>
               </List>
