@@ -6,10 +6,10 @@ function App() {
     palette: {
       type: "dark",
       primary: {
-        main: "#b32a12",
+        main: "#FF0000",
       },
       secondary: {
-        main: "#c35c29",
+        main: "#FF0000",
       },
     },
   });
