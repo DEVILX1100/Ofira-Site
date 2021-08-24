@@ -14,7 +14,7 @@ function redirectToAdd() {
 }
 
 function redirectToSupport() {
-  window.open("https://discord.gg/wDPvreyZTU", "_self");
+  window.open("https://discord.gg/ndYpyzAU2Z", "_self");
 }
 
 function redirectToTop() {
