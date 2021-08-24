@@ -105,7 +105,7 @@ function MusicList() {
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
-        <ListItemText primary="Volume" secondary="Use to change volume." />
+        <ListItemText primary="volume" secondary="Use to change volume." />
       </ListItem>
       <Divider />
       <ListItem className={classes.command}>
